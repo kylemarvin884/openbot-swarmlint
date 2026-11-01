@@ -1,0 +1,13 @@
+{"ts":"2026-11-02T09:00:00Z","agent":"planner","type":"task.create","task":"T1","text":"fix the flaky auth test"}
+{"ts":"2026-11-02T09:01:00Z","agent":"planner","type":"task.assign","task":"T1","to":"coder"}
+{"ts":"2026-11-02T09:02:00Z","agent":"coder","type":"task.claim","task":"T1"}
+{"ts":"2026-11-02T09:03:00Z","agent":"coder","type":"task.progress","task":"T1","text":"reproduced locally"}
+{"ts":"2026-11-02T09:10:00Z","agent":"coder","type":"task.progress","task":"T1","text":"patched the token refresh path"}
+{"ts":"2026-11-02T09:12:00Z","agent":"coder","type":"task.done","task":"T1","evidence":"npm test: 42 passed"}
+{"ts":"2026-11-02T09:13:00Z","agent":"planner","type":"task.create","task":"T2","text":"update auth docs"}
+{"ts":"2026-11-02T09:14:00Z","agent":"planner","type":"handoff","task":"T2","to":"reviewer"}
+{"ts":"2026-11-02T09:15:00Z","agent":"reviewer","type":"task.claim","task":"T2"}
+{"ts":"2026-11-02T09:20:00Z","agent":"reviewer","type":"task.progress","task":"T2","text":"rewrote the expiry section"}
+{"ts":"2026-11-02T09:25:00Z","agent":"reviewer","type":"task.done","task":"T2","evidence":"docs/auth.md updated"}
+{"ts":"2026-11-02T09:26:00Z","agent":"planner","type":"message","to":"coder","text":"thanks, merged"}
+{"ts":"2026-11-02T09:27:00Z","agent":"coder","type":"message","to":"planner","text":"ack"}

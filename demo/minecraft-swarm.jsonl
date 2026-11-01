@@ -1,0 +1,40 @@
+{"ts":"2026-11-01T10:00:00Z","agent":"mayor","type":"message","to":"*","text":"we have 8 agents and 6 tasks. build a civilization."}
+{"ts":"2026-11-01T10:01:00Z","agent":"planner","type":"task.create","task":"T1","text":"walls"}
+{"ts":"2026-11-01T10:02:00Z","agent":"planner","type":"task.create","task":"T2","text":"housing"}
+{"ts":"2026-11-01T10:03:00Z","agent":"planner","type":"task.create","task":"T3","text":"farms"}
+{"ts":"2026-11-01T10:04:00Z","agent":"planner","type":"handoff","task":"T1","to":"architect","text":"please own the wall plan"}
+{"ts":"2026-11-01T10:05:00Z","agent":"architect","type":"task.claim","task":"T1"}
+{"ts":"2026-11-01T10:06:00Z","agent":"planner","type":"message","to":"*","text":"prioritize walls"}
+{"ts":"2026-11-01T10:07:00Z","agent":"mason","type":"task.claim","task":"T1"}
+{"ts":"2026-11-01T10:08:00Z","agent":"mason","type":"task.progress","task":"T1","text":"laying stone"}
+{"ts":"2026-11-01T10:09:00Z","agent":"architect","type":"task.progress","task":"T1","text":"drawing the plan"}
+{"ts":"2026-11-01T10:10:00Z","agent":"mayor","type":"message","to":"*","text":"status?"}
+{"ts":"2026-11-01T10:11:00Z","agent":"architect","type":"handoff","task":"T1","to":"mason","text":"you build, I will review"}
+{"ts":"2026-11-01T10:12:00Z","agent":"mason","type":"handoff","task":"T1","to":"architect","text":"I need the plan first"}
+{"ts":"2026-11-01T10:13:00Z","agent":"planner","type":"task.create","task":"T4","text":"iron"}
+{"ts":"2026-11-01T10:14:00Z","agent":"scout","type":"task.claim","task":"T4"}
+{"ts":"2026-11-01T10:15:00Z","agent":"scout","type":"task.progress","task":"T4","text":"found 3 veins, heading back"}
+{"ts":"2026-11-01T10:16:00Z","agent":"planner","type":"message","to":"*","text":"remember to sleep"}
+{"ts":"2026-11-01T10:17:00Z","agent":"planner","type":"task.create","task":"T5","text":"zoning"}
+{"ts":"2026-11-01T10:18:00Z","agent":"planner","type":"handoff","task":"T5","to":"architect","text":"zoning is yours"}
+{"ts":"2026-11-01T10:19:00Z","agent":"architect","type":"handoff","task":"T5","to":"planner","text":"I need your constraints"}
+{"ts":"2026-11-01T10:20:00Z","agent":"planner","type":"handoff","task":"T5","to":"architect","text":"just follow the grid"}
+{"ts":"2026-11-01T10:21:00Z","agent":"architect","type":"handoff","task":"T5","to":"planner","text":"the grid conflicts with housing"}
+{"ts":"2026-11-01T10:22:00Z","agent":"mayor","type":"message","to":"*","text":"zoning meeting at noon"}
+{"ts":"2026-11-01T10:23:00Z","agent":"mason","type":"task.progress","task":"T1","text":"wall 30%"}
+{"ts":"2026-11-01T10:24:00Z","agent":"mason","type":"task.done","task":"T1","evidence":"screenshot wall-30.png"}
+{"ts":"2026-11-01T10:25:00Z","agent":"planner","type":"message","to":"quartermaster","text":"take inventory"}
+{"ts":"2026-11-01T10:26:00Z","agent":"mason","type":"message","to":"quartermaster","text":"20 stone used"}
+{"ts":"2026-11-01T10:27:00Z","agent":"planner","type":"task.create","task":"T6","text":"roads"}
+{"ts":"2026-11-01T10:28:00Z","agent":"mason","type":"task.claim","task":"T6"}
+{"ts":"2026-11-01T10:29:00Z","agent":"mason","type":"task.progress","task":"T6","text":"paving"}
+{"ts":"2026-11-01T10:30:00Z","agent":"mason","type":"task.done","task":"T6"}
+{"ts":"2026-11-01T10:31:00Z","agent":"planner","type":"message","to":"*","text":"roads done, good work"}
+{"ts":"2026-11-01T10:32:00Z","agent":"planner","type":"task.create","task":"T7","text":"trade"}
+{"ts":"2026-11-01T10:33:00Z","agent":"scout","type":"task.claim","task":"T7"}
+{"ts":"2026-11-01T10:34:00Z","agent":"scout","type":"task.block","task":"T7","text":"no emeralds nearby"}
+{"ts":"2026-11-01T10:35:00Z","agent":"mason","type":"task.claim","task":"T2"}
+{"ts":"2026-11-01T10:36:00Z","agent":"mason","type":"task.progress","task":"T2","text":"housing plan drafted"}
+{"ts":"2026-11-01T10:37:00Z","agent":"mason","type":"task.done","task":"T2"}
+{"ts":"2026-11-01T10:38:00Z","agent":"mayor","type":"message","to":"*","text":"what is blocking trade?"}
+{"ts":"2026-11-01T11:05:00Z","agent":"mayor","type":"message","to":"*","text":"meeting adjourned"}

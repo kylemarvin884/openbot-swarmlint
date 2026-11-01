@@ -1,0 +1,7 @@
+{"ts":"2026-11-02T12:00:00Z","agent":"a","type":"task.create","task":"T1","text":"write the migration"}
+{"ts":"2026-11-02T12:01:00Z","agent":"a","type":"handoff","task":"T1","to":"b","text":"you own it"}
+{"ts":"2026-11-02T12:02:00Z","agent":"b","type":"handoff","task":"T1","to":"a","text":"I need the schema"}
+{"ts":"2026-11-02T12:03:00Z","agent":"a","type":"handoff","task":"T1","to":"b","text":"same as last week"}
+{"ts":"2026-11-02T12:04:00Z","agent":"b","type":"handoff","task":"T1","to":"a","text":"that is not a schema"}
+{"ts":"2026-11-02T12:05:00Z","agent":"a","type":"task.claim","task":"T1"}
+{"ts":"2026-11-02T12:06:00Z","agent":"a","type":"task.progress","task":"T1","text":"writing it myself"}
